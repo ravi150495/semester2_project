@@ -7,7 +7,7 @@ Analysis done on verbal and non-verbal features of interviewee in the interview.
 * Used classification models, to classify the whether student get the job or not on the basis of Overall rating.
 * Done analysis on how interviewer changed his focused on some particular features after giving the feedback
 
-The objective of the project is to do some analysis on interviewee and interview behaviour during interview before and after the interview
+The objective of the project is to do some analysis on interviewee and interviewer behaviour during interview before and after the interview
 
 ## Dependencies:
 * Numpy
@@ -41,7 +41,9 @@ Output: Make a list, if overall rating above 6 then append 1 otherwise 0 in a li
 We normalized the input data using Standardisation 
 
 x = the value that is being standardized
+
 m = the mean of the distribution
+
 s = standard deviation of the distribution
 
 * 5.  Splitting The data:
@@ -66,11 +68,13 @@ c) SVM: both linear and rbf kernel
 
 `Analysis on students`
 
+`No of participants vs Ratings in Interview before taking Feedback (Frequency Vs Ratings):`
+
 ![](https://github.com/ravi150495/semester2_project/blob/master/Before_f.png)
 
 `Participants must have  at least 6 ratings in order to get hired.But there are some other  participants who have above 5.5 ratings points then they can be considered because Hiring depends upon all features there may be chance that these students score very good points in some features and get less points in some features because which there ratings get decreased.`
 
-` Interview after feedback `
+` Participants After taking Feedback in interview(Frequency Vs Ratings): `
 
 ![](https://github.com/ravi150495/semester2_project/blob/master/After_f.png)
 
@@ -78,3 +82,5 @@ c) SVM: both linear and rbf kernel
 
 ![](https://github.com/ravi150495/semester2_project/blob/master/Interviewer.png)
 
+`We found that after giving feedback to the students about their weakness. Next time during Interview , Interviewer focused on those features which were weak earlier. As we have seen , Features like Engaged, Smiled , Excited, Speaking rate, No fillers, Friendly, Paused, Engaged tone get increased which means In overall hiring the importance of these features get increased.
+`
