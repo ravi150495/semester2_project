@@ -59,43 +59,22 @@ c) SVM: both linear and rbf kernel
 
 * 7. Result analysis   
 
-
-Classification models
-Accuracy(Before feedback)
-Accuracy(After feedback)
-Logistic Regression(Quasi newton solver)
-95.23
-100
-Logistic Regression(saga solver)
-95.23
-100
-KNN(K= 5 , p=2)
-95.23
-95.23
-KNN(K= 10, p=2)
-95.23
-90.47
-KNN(K= 10 , p=1)
-95.23
-90.47
-SVM (Kernel = Linear, C = 1)
-95.23
-95.23
-SVM ( kernel = Linear, C = 5)
-95.23
-95.23
-SVM ( kernel = rbf ,C = 1)
-95.23
-90.47
-SVM (kernel= rbf ,C = 5)
-95.23
-100
+![accuracy](https://github.com/ravi150495/semester2_project/blob/master/result1.png)
 
 
 # Analysis :
-Analysis on students 
-Participants must have  at least 6 ratings in order to get hired.But there are some other  participants who have above 5.5 ratings points then they can be considered because Hiring depends upon all features there may be chance that these students score very good points in some features and get less points in some features because which there ratings get decreased.  
 
-		
+`Analysis on students`
 
+![](https://github.com/ravi150495/semester2_project/blob/master/Before_f.png)
+
+`Participants must have  at least 6 ratings in order to get hired.But there are some other  participants who have above 5.5 ratings points then they can be considered because Hiring depends upon all features there may be chance that these students score very good points in some features and get less points in some features because which there ratings get decreased.`
+
+` Interview after feedback `
+
+![](https://github.com/ravi150495/semester2_project/blob/master/After_f.png)
+
+`Analysis on How interviewer changed his focused after giving feedback `		
+
+![](https://github.com/ravi150495/semester2_project/blob/master/Interviewer.png)
 
